@@ -6,6 +6,14 @@ export const Container = styled.div`
   align-items: center;
   justify-content: center;
 }
+header .title{
+  margin-bottom: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+ 
+}
 
 #ebook .book {
   width: 100%;
