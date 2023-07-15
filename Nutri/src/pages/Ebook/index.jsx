@@ -8,9 +8,9 @@ export function Ebook(){
         <Container>
          
             <section className="section" id="ebook">
-            <header>
+            {/* <header>
                     <h2 className="title">Ebook</h2>
-                </header>
+                </header> */}
                 <div className="container">
                 
 

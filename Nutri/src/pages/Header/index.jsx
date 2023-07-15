@@ -16,7 +16,7 @@ const [click, setClick] = useState(false);
 
   useEffect(() => {
     const navMenu = document.querySelector('.nav-menu');
-
+    console.log(navMenu)
     if (navMenu) {
       if (click) {
         navMenu.classList.add('active');
@@ -29,6 +29,7 @@ const [click, setClick] = useState(false);
   const handleClick = () => {
     setClick(!click);
   };
+  
     return(
        <Container>
          <div className='header'>

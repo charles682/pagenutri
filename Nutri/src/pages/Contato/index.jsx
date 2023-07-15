@@ -16,9 +16,7 @@ export function Contato(){
               Entre em contato com a DR. Cristiane Umbelina, que iremos  tirar suas dúvidas.
             </p>
             <Button title="Entrar em contato">
-                <span>
-                  <FaWhatsapp color="#ffffff" />
-                </span>
+             
            </Button>
           </div>
 
@@ -26,7 +24,7 @@ export function Contato(){
             <ul className="grid">
               <li><FaWhatsapp color='#6ab99d' fontSize="1.5rem"/>38999301259</li>
               <li><BsTelephone color='#6ab99d' fontSize="1.5rem"/>Praça Joaquim Capuchinho 336, Indaiabira-MG</li>
-              <li><MdOutgoingMail color='#6ab99d' fontSize="1.5rem"/>nutricionista.cristianeumbelina@gmail.com</li>
+              <li><MdOutgoingMail color='#6ab99d' fontSize="1.5rem"/>cristianeumbelina@gmail.com</li>
             </ul>
           </div>
 

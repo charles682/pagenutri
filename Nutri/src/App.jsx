@@ -16,12 +16,12 @@ function App() {
     const scrollReveal = ScrollReveal({
       origin: 'top',
       distance: '30px',
-      duration: 700,
+      duration: 200,
       reset: true
     });
 
     const revealElements = () => {
-      scrollReveal.reveal("#home .image, #home .text, #about .image, #about .text, #services header, #services .card, #testimonials header, #testimonials .testimonials, #contact .text, .consulta, #contact .links, #ebook .Links, #ebook .imageBook", { interval: 100 });
+      scrollReveal.reveal("#home .image, #home .text, #about .image, #about .text, #services header, #services .card, #testimonials header, #testimonials .testimonials, #contact .text, .consulta, #contact .links, #ebook .Links, #ebook .imageBook", { interval: 50});
     };
 
     const revealTimeout = setTimeout(revealElements, 100);

@@ -11,6 +11,10 @@ export const Container = styled.div`
   gap: 4rem;
 }
 
+span {
+  background-color: red;
+}
+
 #contact .container {
     width:83%;
     display: flex;
@@ -50,7 +54,12 @@ export const Container = styled.div`
    flex-direction: column;
    
   
-   } 
+   }
+
+  
+   li{
+    width: 300px;
+   }
 }
 
 
