@@ -41,7 +41,7 @@ export function Header() {
             </li>
             <li className='nav-item'>
               <Link to='about' spy={true} smooth={true} offset={-100} duration={500} onClick={closeMenu}>
-                About
+                Sobre
               </Link>
             </li>
             <li className='nav-item'>
