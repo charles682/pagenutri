@@ -48,20 +48,20 @@ export const Container = styled.div`
   )};
 @media(max-width:720px){
   .container{
+    width: 83%;
     display: flex;
     flex-direction: column;
     min-width: 100%;
- 
-    padding: 1rem;
+
     .image {
-      min-width: 80%;
+      min-width: 83%;
      
     
     }
 
     .text{
-      min-width: 100%;
-      padding: 1rem;
+      min-width: 83%;
+    
     }
    
   }

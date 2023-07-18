@@ -56,7 +56,7 @@ export default createGlobalStyle`
  
  @media (max-width:720px){
   .section {
-    padding: calc(4rem + 2.5rem) 0;
+    padding: 3.5rem 0;
    
   }
   

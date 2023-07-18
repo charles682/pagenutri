@@ -74,6 +74,7 @@ export const Container = styled.div`
 
 @media(max-width:720px){
   .container{
+    
     display: flex;
     flex-direction: column-reverse;
    

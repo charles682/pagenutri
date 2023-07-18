@@ -68,7 +68,6 @@ Button {
 @media(max-width:720px){
  .container{
   width: 83%;
-  height: 100%;
   display: flex;
   justify-content: flex-start;
   flex-direction: column;
@@ -91,7 +90,7 @@ Button {
   display: flex;
   justify-content: flex-start;
   flex-direction:column-reverse;
- 
+
 }
 
 .book .imageBook{

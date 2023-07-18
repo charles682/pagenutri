@@ -124,11 +124,12 @@ div.swiper-button-next
   }
   header {
   
-  max-width: 300px;
+  max-width: 290px;
   margin-bottom: 3rem;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
+  background-color: red;
 
  
 }
