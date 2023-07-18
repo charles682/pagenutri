@@ -23,7 +23,7 @@ header h2{
     flex-direction: column;
 }
 .cards {
-    width: 100%;
+    width: 82%;
     grid-template-columns: 1fr 1fr 1fr;
   
    

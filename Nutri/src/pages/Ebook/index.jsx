@@ -26,7 +26,7 @@ export function Ebook(){
                             
                                 <p>Comece agora mesmo a cuidar de você, ganhe mais saúde e atinja seus objetivos.</p>
                                 <p>Baixe o ebook gratuito, e siga as orientações nutricionais para perda de peso e reeducação alimentar.</p>
-                                <a href={resume} download="Resume">
+                                <a href={resume} download="Orientações">
                                     <Button > 
                                     
                                     Download
