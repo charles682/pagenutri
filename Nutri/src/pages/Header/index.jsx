@@ -67,7 +67,7 @@ export function Header() {
           </ul>
 
           <div className='iconMenu'>
-            <a href='https://instagram.com' target='_blank'>
+            <a href='https://instagram.com/nutri_cristianeumbelina?igshid=MzRlODBiNWFlZA==' target='_blank'>
               <FiInstagram color='#6ab99d' fontSize='1.5rem' />
             </a>
             <a
