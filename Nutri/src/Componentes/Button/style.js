@@ -13,6 +13,9 @@ export const Container = styled.button`
   transition: background 0.3s;
   border: none;
   cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
 
 

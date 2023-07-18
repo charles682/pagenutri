@@ -23,8 +23,9 @@ header h2{
     flex-direction: column;
 }
 .cards {
-    width: 82%;
+    width: 100%;
     grid-template-columns: 1fr 1fr 1fr;
+  
    
   }
 
@@ -78,7 +79,7 @@ div.item {
  .container{
  display: flex;
  align-items: center;
-    justify-content: center;
+ justify-content: center;
  flex-direction: column;
  }
  header h2{

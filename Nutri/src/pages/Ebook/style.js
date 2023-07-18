@@ -26,7 +26,7 @@ header .title{
  
 }
 
-#ebook .book {
+.book {
   width: 100%;
   height: 60vh;
    display: flex;
@@ -34,7 +34,7 @@ header .title{
   justify-content: center;
 }
 
-#ebook p{
+ p{
   margin-top: 1rem;
   margin-bottom: 1rem;
 }
@@ -64,17 +64,21 @@ header .title{
 }
 @media(max-width:720px){
  .container{
+  width: 83%;
   height: 100%;
   display: flex;
+  justify-content: flex-start;
   flex-direction: column;
 
  }
  
  header .title{
   margin-bottom: 3rem;
+  margin-left: -9.5rem;
+  justify-content: flex-start;
   display: flex;
   align-items: center;
-  justify-content: center;
+
 
  
 }
@@ -82,8 +86,7 @@ header .title{
   width:100%;
   height: 100%;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
   flex-direction:column-reverse;
  
 }
@@ -99,13 +102,18 @@ header .title{
 
 
 .book .Links{
-  width: 80%;
+  width: 100%;  
+  margin-left: 0;
   height: 70%;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
   text-align: justify;
-  
 }
 
 
    } 
+
+   
 
 `
