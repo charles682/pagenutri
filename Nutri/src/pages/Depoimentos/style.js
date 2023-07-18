@@ -124,7 +124,7 @@ div.swiper-button-next
   }
   header {
   
-  max-width: 400px;
+  max-width: 350px;
   margin-bottom: 3rem;
   display: flex;
   align-items: center;
