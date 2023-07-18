@@ -16,11 +16,13 @@ export function Contato(){
             <p>
               Entre em contato com a DR. Cristiane Umbelina, que iremos  tirar suas dúvidas.
             </p>
+            <a href="https://api.whatsapp.com/send?phone=5538997415323&text=Ol%C3%A1%20Doutora%20Cristiane%2C%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20seus%20atendimentos!" target='_blank'>
             <Button>
                <FaWhatsapp color='#ffff'/>
-               <a href="https://api.whatsapp.com/send?phone=5538997415323&text=Ol%C3%A1%20Doutora%20Cristiane%2C%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20seus%20atendimentos!"></a>
                Entrar em contato
            </Button>
+                   
+           </a>
           </div>
 
           <div className="links">

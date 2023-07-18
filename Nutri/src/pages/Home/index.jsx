@@ -12,10 +12,11 @@ export function Home(){
                     <p>
                     Nutricionista, com especialização em Nutrição Clínica E Esportiva, com vários atendimentos realizados presencial e online,vários grupos online de emagrecimento, em vários estados do Brasil, e ótimos resultados alcançados. 
                     </p>
+                    <a href="https://api.whatsapp.com/send?phone=5538997415323&text=Ol%C3%A1%20Doutora%20Cristiane%2C%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20seus%20atendimentos!" target='_blank'>
                     <Button >
-                      <a href="https://api.whatsapp.com/send?phone=5538997415323&text=Ol%C3%A1%20Doutora%20Cristiane%2C%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20seus%20atendimentos!"></a>Agende sua Consulta
+                    Agende sua Consulta
                     </Button>
-                            
+                    </a>    
                 </div>
 
                 <div className="image">

@@ -25,6 +25,9 @@ header .title{
 
  
 }
+Button {
+  width: 19rem;
+}
 
 .book {
   width: 100%;
@@ -111,9 +114,7 @@ header .title{
   text-align: justify;
 }
 
-Button {
-  width: 19rem;
-}
+
    } 
 
    

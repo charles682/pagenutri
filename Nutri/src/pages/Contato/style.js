@@ -14,7 +14,10 @@ export const Container = styled.div`
 span {
   background-color: red;
 }
-
+Button{
+  gap: 1rem;
+    display: flex;
+}
 .container {
     width:83%;
     display: flex;
@@ -76,6 +79,7 @@ span {
    }
    Button{
     width: 19rem;
+  
     
    }
 }
