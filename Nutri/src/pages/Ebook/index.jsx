@@ -1,9 +1,12 @@
 import {Container} from './style'
 import img from'../../images/ebook.png'
 import { Button } from '../../Componentes/Button'
+import resume from '../../images/NUTRICIONAIS.pdf'
+
 
 
 export function Ebook(){
+   
     return(
         <Container>
          
@@ -23,11 +26,14 @@ export function Ebook(){
                             
                                 <p>Comece agora mesmo a cuidar de você, ganhe mais saúde e atinja seus objetivos.</p>
                                 <p>Baixe o ebook gratuito, e siga as orientações nutricionais para perda de peso e reeducação alimentar.</p>
-                            
-                               <Button downloadable={true} > 
-                               Download 
-                              
-                               </Button>
+                                <a href={resume} download="Resume">
+                                    <Button > 
+                                    
+                                    Download
+                                    
+                                    </Button>
+
+                                </a>
                             </div> 
                             <div className="imageBook" >
                             

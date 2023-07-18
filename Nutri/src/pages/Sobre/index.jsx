@@ -3,6 +3,9 @@ import img from "../../images/WhatsApp_Image_2022-08-04_at_16.50.52-removebg-pre
 
 
 export function Sobre(){
+ 
+  
+
     return(
     <Container>
       <section className="section" id="about">

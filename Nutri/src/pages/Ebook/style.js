@@ -111,7 +111,9 @@ header .title{
   text-align: justify;
 }
 
-
+Button {
+  width: 19rem;
+}
    } 
 
    

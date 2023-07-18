@@ -89,7 +89,9 @@ export const Container = styled.div`
      
     }
 
-   
+   Button{
+    width: 19rem;
+   }
    
    } 
   

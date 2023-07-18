@@ -43,8 +43,14 @@ span {
 
 
 .Programador{
-    text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+    height: 10rem;
+    text-align: center;    
     margin-bottom: 2rem;
+    color:${({theme}) => theme.COLORS.textColorLight};
+    background-color: ${({theme}) => theme.COLORS.baseColor};
 }
 @media(max-width:720px){
   .section{
@@ -67,6 +73,10 @@ span {
    li{
     
     width: 300px;
+   }
+   Button{
+    width: 19rem;
+    
    }
 }
 
