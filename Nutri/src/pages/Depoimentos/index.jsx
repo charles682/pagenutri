@@ -45,7 +45,7 @@ export function Depoimentos(){
 
               <div className="container">
               <header>
-                    <h2 className="title">Depoimentos</h2>
+                    <h2 className="title">Depoimentos de quem ja passou po aqui</h2>
                 </header>
 
               </div>

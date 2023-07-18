@@ -15,7 +15,7 @@ span {
   background-color: red;
 }
 
-#contact .container {
+.container {
     width:83%;
     display: flex;
     align-items: center;
@@ -47,6 +47,13 @@ span {
     margin-bottom: 2rem;
 }
 @media(max-width:720px){
+  .section{
+
+   display: flex;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+}
   .container{
    display: flex;
    align-items: center;
@@ -55,9 +62,10 @@ span {
    
   
    }
-
+   
   
    li{
+    
     width: 300px;
    }
 }

@@ -8,10 +8,18 @@ export const Container = styled.div`
     align-items: center;
     justify-content: center;
     flex-direction: column;
- 
   
 }
-header .title{
+.container{
+  width: 83%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+header {
+  
+  max-width: 400px;
   margin-bottom: 3rem;
   display: flex;
   align-items: center;
@@ -25,14 +33,14 @@ header .title{
   align-items: center;
   justify-content: center;
   position: relative; 
- 
+  box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.08);
+
   background-color: ${({theme}) => theme.COLORS.backgroundColor};
 }
 blockquote {
   height: 400px;
-  width: 350px ;
+  width: 320px ;
   padding: 2rem; 
-  box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.08);
   border-radius: 0.25rem;
   margin-bottom: 3rem;
   display: grid;
@@ -49,6 +57,7 @@ margin-bottom: 1.5rem;
 margin-left: 1.5rem;
 color:${({theme}) => theme.COLORS.titleColor} ;
 background-color: ${({theme}) => theme.COLORS.backgroundColor};
+
 }
 
 blockquote p span {
@@ -113,6 +122,16 @@ div.swiper-button-next
     flex-direction: column;
     min-width: 100%;
   }
+  header {
+  
+  max-width: 300px;
+  margin-bottom: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+ 
+}
   .swiper-button-prev,
 div.swiper-button-next
 {

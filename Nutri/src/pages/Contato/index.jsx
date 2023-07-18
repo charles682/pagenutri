@@ -1,6 +1,7 @@
 import {Container} from './style'
 import {Button} from '../../Componentes/Button'
 import { FaWhatsapp } from 'react-icons/fa';
+import {ImLocation} from 'react-icons/im';
 import { BsTelephone} from 'react-icons/bs';
 import {MdOutgoingMail } from 'react-icons/md';
 
@@ -15,15 +16,16 @@ export function Contato(){
             <p>
               Entre em contato com a DR. Cristiane Umbelina, que iremos  tirar suas dúvidas.
             </p>
-            <Button title="Entrar em contato">
-             
+            <Button>
+               <FaWhatsapp color='#ffff'/>
+               Entrar em contato
            </Button>
           </div>
 
           <div className="links">
             <ul className="grid">
-              <li><FaWhatsapp color='#6ab99d' fontSize="1.5rem"/>38999301259</li>
-              <li><BsTelephone color='#6ab99d' fontSize="1.5rem"/>Praça Joaquim Capuchinho 336, Indaiabira-MG</li>
+              <li><BsTelephone color='#6ab99d' fontSize="1.5rem"/>38999301259</li>
+              <li><ImLocation color='#6ab99d' fontSize="1.5rem"/>Praça Joaquim Capuchinho 336, Indaiabira-MG</li>
               <li><MdOutgoingMail color='#6ab99d' fontSize="1.5rem"/>cristianeumbelina@gmail.com</li>
             </ul>
           </div>

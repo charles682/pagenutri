@@ -4,7 +4,6 @@ export const Container = styled.div`
 
 /*====  HOME ============================ */
 #home{
-  width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -77,8 +76,7 @@ export const Container = styled.div`
   .container{
     display: flex;
     flex-direction: column-reverse;
-    min-width: 100%;
-    padding: 1rem;
+   
  
     .image {
       min-width: 80%;

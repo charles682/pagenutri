@@ -12,7 +12,9 @@ export function Home(){
                     <p>
                     Nutricionista, com especialização em Nutrição Clínica E Esportiva, com vários atendimentos realizados presencial e online,vários grupos online de emagrecimento, em vários estados do Brasil, e ótimos resultados alcançados. 
                     </p>
-                    <Button title="Agende sua Consulta"/>
+                    <Button >
+                      Agende sua Consulta
+                    </Button>
                             
                 </div>
 

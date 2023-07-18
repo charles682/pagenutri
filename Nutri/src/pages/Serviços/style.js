@@ -9,14 +9,17 @@ export const Container = styled.div`
     justify-content: center;
 }
 
-header{
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
+header h2{
+   display: flex;
+   justify-content: center;
+ 
+  
 }
 .container{
     width: 83%;  
     display: flex;
+    align-items: center;
+    justify-content: center;
     flex-direction: column;
 }
 .cards {
@@ -77,7 +80,13 @@ div.item {
  align-items: center;
     justify-content: center;
  flex-direction: column;
-
+ }
+ header h2{
+   display: flex;
+   justify-content: flex-start;
+   
+  
+}
    .card{
     width: 270px;
    }
@@ -87,7 +96,8 @@ div.item {
       flex-direction: column;
     }
    
+
    
    } 
-}
+
 `

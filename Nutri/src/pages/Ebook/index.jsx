@@ -8,10 +8,10 @@ export function Ebook(){
         <Container>
          
             <section className="section" id="ebook">
-            {/* <header>
-                    <h2 className="title">Ebook</h2>
-                </header> */}
                 <div className="container">
+                 <header>
+                    <h2 className="title">Ebook</h2>
+                </header> 
                 
 
                     <div className="book">
@@ -24,7 +24,10 @@ export function Ebook(){
                                 <p>Comece agora mesmo a cuidar de você, ganhe mais saúde e atinja seus objetivos.</p>
                                 <p>Baixe o ebook gratuito, e siga as orientações nutricionais para perda de peso e reeducação alimentar.</p>
                             
-                               <Button title="Download"/>
+                               <Button downloadable={true} > 
+                               Download 
+                              
+                               </Button>
                             </div> 
                             <div className="imageBook" >
                             

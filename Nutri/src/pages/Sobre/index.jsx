@@ -14,7 +14,7 @@ export function Sobre(){
             />
           </div>
           <div className="text">
-            <h2 className="title">Sobre nós</h2>
+            <h2 className="title">Sobre</h2>
           
             <p>Cristiane Umbelina - Nutricionista Esportiva</p>
            

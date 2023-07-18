@@ -38,12 +38,7 @@ export default createGlobalStyle`
     
   } 
  
-  nav .menu ul li a.title {
-    font: 400 1rem 'DM Sans', sans-serif;
-    color: ${({theme}) => theme.COLORS.textColor};
-    -webkit-font-smoothing: antialiased;
-}
-
+  
 .section {
     padding: calc(5rem + 4.5rem) 0;
    
@@ -64,6 +59,7 @@ export default createGlobalStyle`
     padding: calc(4rem + 2.5rem) 0;
    
   }
+  
  
  }
  

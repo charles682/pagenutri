@@ -1,13 +1,24 @@
 import styled from"styled-components"
 export const Container = styled.div`
+.section{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  
+}
 .container{
   width:83%;
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
+  
+      
 }
 header .title{
-  margin-bottom: 3rem;
+  
   display: flex;
   align-items: center;
   justify-content: center;
