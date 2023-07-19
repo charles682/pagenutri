@@ -40,7 +40,7 @@ export function Contato(){
       </section>
       <div className="direitos">
         <p className="Programador">@2023 <a href="https://www.instagram.com/charlesm3lo/" target="_blank">Charles Melo</a> todos direitos reservados.</p>
-        <div className='a'> 
+        <div className='icons'> 
           <a href='https://www.instagram.com/charlesm3lo/' target='_blank'>
                 <FiInstagram color='#fafafa' fontSize='1.5rem' />
               </a>

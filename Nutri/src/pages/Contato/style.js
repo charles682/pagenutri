@@ -49,10 +49,12 @@ Button{
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
   gap: 1rem;
   background-color: ${({theme}) => theme.COLORS.baseColor}; 
   height: 10rem;
 }
+
 
 .Programador{
  
@@ -60,10 +62,16 @@ Button{
     color:${({theme}) => theme.COLORS.textColorLight};
   
 }
-.a{
+
+.Programador a{
+  text-decoration: none;
+  color: white;
+}
+.icons{
     display: flex;
     gap: 1rem;
    }
+
 @media(max-width:720px){
   .section{
 
@@ -77,11 +85,8 @@ Button{
    align-items: center;
    justify-content: center;
    flex-direction: column;
-   
-  
    }
    
-
   li{
     
     width: 300px;
@@ -91,13 +96,7 @@ Button{
 
    }
    
-   .direitos{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
    
-   }
 
    
 }

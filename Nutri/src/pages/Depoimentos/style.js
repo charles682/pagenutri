@@ -49,13 +49,12 @@ blockquote {
 }
 
 blockquote p {
-  max-width: 200px;
+max-width: 200px;
 position: relative;
 text-align: justify;
 text-indent: 1.275rem;
 margin-bottom: 1.5rem;
 margin-left: 1.5rem;
-color:${({theme}) => theme.COLORS.titleColor} ;
 background-color: ${({theme}) => theme.COLORS.backgroundColor};
 
 }
