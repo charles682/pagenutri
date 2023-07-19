@@ -34,7 +34,7 @@ export function Sobre(){
           </div>
         </div>
       </section>
-      <div className="divider-1"></div>
+      <div className="divider-2"></div>
     </Container>
 
     );

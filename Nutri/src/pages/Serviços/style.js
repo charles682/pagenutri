@@ -64,14 +64,6 @@ div.item {
 
 }
 
-.divider-1 {
-  height: 2px;
-  background: linear-gradient(
-    270deg,
-    #cdf4e6,
-    #6ab99d
-  );
-}
 
 @media(max-width:812px){
  

@@ -62,15 +62,6 @@ export const Container = styled.div`
   text-align: justify;
 }
 
-.divider-1 {
-  height: 1px;
-  background: linear-gradient(
-    270deg,
-    #6ab99d,
-    #cdf4e6
-    
-  );
-}
 
 @media(max-width:720px){
   .container{

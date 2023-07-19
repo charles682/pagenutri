@@ -53,6 +53,24 @@ export default createGlobalStyle`
     width: 100%;
     height: auto;
   }
+
+  .divider-1 {
+  height: 2px;
+  background: linear-gradient(
+    270deg,
+    #cdf4e6,
+    #6ab99d
+  );
+}
+
+.divider-2 {
+  height: 2px;
+  background: linear-gradient(
+    270deg,
+    #6ab99d,
+    #cdf4e6
+  );
+}
  
  @media (max-width:720px){
   .section {

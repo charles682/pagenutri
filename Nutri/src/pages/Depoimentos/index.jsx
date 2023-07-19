@@ -148,7 +148,7 @@ export function Depoimentos(){
                          </Swiper>
              </section>  
          
-             <div className="divider-1"></div>
+             <div className="divider-2"></div>
             </Container>   
             
     );
