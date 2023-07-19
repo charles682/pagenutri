@@ -6,12 +6,12 @@ export const Container = styled.div`
     justify-content: center;
     align-items: center;
 }
- #contact .grid {
+.grid {
   gap: 4rem;
 }
 
 span {
-  background-color: red;
+ color: ${({theme}) => theme.COLORS.baseColor}; 
 }
 Button{
   gap: 1rem;
@@ -25,19 +25,21 @@ Button{
     align-items: center;
   }
 
-  #contact .text {
+.text {
     max-width: 30rem;
   }
 
-#contact .text p {
+ .text p {
   margin-bottom: 2rem;
 }
 
-#contact ul.grid {
+
+
+ ul.grid {
   gap: 1rem;
 }
 
-#contact ul li {
+ ul li {
   display: flex;
   align-items: center;
   gap: .5rem;
@@ -55,7 +57,6 @@ Button{
 .Programador{
  
     text-align: center;    
-
     color:${({theme}) => theme.COLORS.textColorLight};
   
 }

@@ -38,16 +38,13 @@ export function Depoimentos(){
       }
   }, [])
     return(
-       
             <Container  >
-
               <section className='section' id="testimonials">   
 
               <div className="container">
               <header>
                     <h2 className="title">Depoimentos de quem já passou por aqui</h2>
                 </header>
-
               </div>
                 
                 <Swiper
