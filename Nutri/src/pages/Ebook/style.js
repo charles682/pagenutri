@@ -66,9 +66,6 @@ Button {
   );
 }
 @media(max-width:720px){
-  .section{
-  padding: 0;
-  }
  .container{
 
   width: 83%;

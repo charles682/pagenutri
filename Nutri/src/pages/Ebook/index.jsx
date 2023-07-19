@@ -9,29 +9,20 @@ export function Ebook(){
    
     return(
         <Container>
-         
             <section className="section" id="ebook">
                 <div className="container">
                  <header>
                     <h2 className="title">Ebook</h2>
                 </header> 
-                
-
                     <div className="book">
 
                     
                             <div className="Links">
-                            
-    
-                            
+
                                 <p>Comece agora mesmo a cuidar de você, ganhe mais saúde e atinja seus objetivos.</p>
                                 <p>Baixe o ebook gratuito, e siga as orientações nutricionais para perda de peso e reeducação alimentar.</p>
                                 <a href={resume} download="Orientações">
-                                    <Button > 
-                                    
-                                    Download
-                                    
-                                    </Button>
+                                    <Button >Download</Button>
 
                                 </a>
                             </div> 

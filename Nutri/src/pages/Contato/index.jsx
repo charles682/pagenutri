@@ -4,6 +4,8 @@ import { FaWhatsapp } from 'react-icons/fa';
 import {ImLocation} from 'react-icons/im';
 import { BsTelephone} from 'react-icons/bs';
 import {MdOutgoingMail } from 'react-icons/md';
+import { FiInstagram } from 'react-icons/fi';
+import {AiFillLinkedin} from 'react-icons/ai'
 
 export function Contato(){
 
@@ -14,11 +16,11 @@ export function Contato(){
           <div className="text">
             <h2 className="title">Entre em contato com a gente!</h2>
             <p>
-              Entre em contato com a DR. Cristiane Umbelina, que iremos  tirar suas dúvidas.
+              Entre em contato com a DRA. Cristiane Umbelina, que iremos  tirar suas dúvidas.
             </p>
             <a href="https://api.whatsapp.com/send?phone=5538997415323&text=Ol%C3%A1%20Doutora%20Cristiane%2C%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20seus%20atendimentos!" target='_blank'>
             <Button>
-               <FaWhatsapp color='#ffff'/>
+               <FaWhatsapp color='#ffff'/> 
                Entrar em contato
            </Button>
                    
@@ -37,12 +39,26 @@ export function Contato(){
         </div>
       </section>
       <div className="direitos">
-        
-        <p className="Programador"> @2023 <a href="https://www.instagram.com/charlesm3lo/" target="_blank">Charles Melo</a> todos direitos reservados.</p>
+        <p className="Programador">@2023 <a href="https://www.instagram.com/charlesm3lo/" target="_blank">Charles Melo</a> todos direitos reservados.</p>
+        <div className='a'> 
+          <a href='' target='_blank'>
+                <FiInstagram color='#fafafa' fontSize='1.5rem' />
+              </a>
+              <a
+                href=''
+                target='_blank'
+              >
+                <FaWhatsapp color='#fafafa' fontSize='1.5rem' />
+              </a>
+              <a href="">
+                <AiFillLinkedin color='#fafafa' fontSize='1.5rem' />
+              </a> 
+
+        </div>
       </div>
     
 
-      <div className="divider-1"></div>            
+            
     </Container>
 
     );

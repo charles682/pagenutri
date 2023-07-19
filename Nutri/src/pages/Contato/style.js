@@ -43,17 +43,26 @@ Button{
   gap: .5rem;
 }
 
-
-.Programador{
+.direitos{
   display: flex;
   align-items: center;
   justify-content: center;
-    height: 10rem;
-    text-align: center;    
-    margin-bottom: 2rem;
-    color:${({theme}) => theme.COLORS.textColorLight};
-    background-color: ${({theme}) => theme.COLORS.baseColor};
+  gap: 1rem;
+  background-color: ${({theme}) => theme.COLORS.baseColor}; 
+  height: 10rem;
 }
+
+.Programador{
+ 
+    text-align: center;    
+
+    color:${({theme}) => theme.COLORS.textColorLight};
+  
+}
+.a{
+    display: flex;
+    gap: 1rem;
+   }
 @media(max-width:720px){
   .section{
 
@@ -71,16 +80,25 @@ Button{
   
    }
    
-  
-   li{
+
+  li{
     
     width: 300px;
    }
    Button{
     width: 19rem;
-  
-    
+
    }
+   
+   .direitos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+   
+   }
+
+   
 }
 
 
