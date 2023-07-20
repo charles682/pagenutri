@@ -16,6 +16,7 @@ export const Container = styled.div`
   justify-content: center;
   align-items: center;
   
+  
 }
 header {
   
@@ -33,19 +34,22 @@ header {
   align-items: center;
   justify-content: center;
   position: relative; 
-  box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.08);
 
-  background-color: ${({theme}) => theme.COLORS.backgroundColor};
+  
+
+ 
 }
 blockquote {
   height: 400px;
   width: 320px ;
   padding: 2rem; 
   border-radius: 0.25rem;
-  margin-bottom: 3rem;
+  margin-bottom: 3rem ;
+  border-bottom: 0.25rem solid ${({theme}) => theme.COLORS.baseColor};
+
   display: grid;
-  gap: 1rem;
   background-color: ${({theme}) => theme.COLORS.backgroundColor};
+  box-shadow:0px 12px 12px rgba(0, 0, 0, 0.08);
 }
 
 blockquote p {

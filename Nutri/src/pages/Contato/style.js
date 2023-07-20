@@ -55,22 +55,22 @@ Button{
   height: 10rem;
 }
 
+.direitos .programador{
+  font-size: .8rem;
+}
 
-.Programador{
+.autorais{
  
     text-align: center;    
     color:${({theme}) => theme.COLORS.textColorLight};
   
 }
 
-.Programador a{
+.autorais a{
   text-decoration: none;
   color: white;
 }
-.icons{
-    display: flex;
-    gap: 1rem;
-   }
+
 
 @media(max-width:720px){
   .section{

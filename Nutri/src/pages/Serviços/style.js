@@ -8,12 +8,9 @@ export const Container = styled.div`
     align-items: center;
     justify-content: center;
 }
-
 header h2{
    display: flex;
    justify-content: center;
- 
-  
 }
 .container{
     width: 83%;  
@@ -28,7 +25,6 @@ header h2{
   
    
   }
-
 .card {
  width: 320px;
   padding: 3.625rem 2rem;
@@ -38,36 +34,24 @@ header h2{
   text-align: center;
 
 }
-
 .card i {
   display: block;
   margin-bottom: 1.5rem;
   font-size: 5rem;
   color: ${({theme}) => theme.COLORS.baseColor};
 }
-
 .card .title {
   font-size: 1.5rem;
   margin-bottom: 0.75rem;
  text-align: left;
 }
-
-
 .card p{
   text-align:left;
 }
-
-
 div.item {
-
   width: 100%;
-
 }
-
-
 @media(max-width:812px){
- 
-  
  .container{
  display: flex;
  align-items: center;
@@ -77,8 +61,6 @@ div.item {
  header h2{
    display: flex;
    justify-content: flex-start;
-   
-  
 }
    .card{
     width: 270px;

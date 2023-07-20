@@ -39,22 +39,9 @@ export function Contato(){
         </div>
       </section>
       <div className="direitos">
-        <p className="Programador">@2023 <a href="https://www.instagram.com/charlesm3lo/" target="_blank">Charles Melo</a> todos direitos reservados.</p>
-        <div className='icons'> 
-          <a href='https://www.instagram.com/charlesm3lo/' target='_blank'>
-                <FiInstagram color='#fafafa' fontSize='1.5rem' />
-              </a>
-              <a
-                href='https://wa.me/5538998735130?text=Ol%C3%A1+gostaria+de+mais+informa%C3%A7%C3%B5es%21'
-                target='_blank'
-              >
-                <FaWhatsapp color='#fafafa' fontSize='1.5rem' />
-              </a>
-              <a href="https://www.linkedin.com/in/charlesmelosa/">
-                <AiFillLinkedin color='#fafafa' fontSize='1.5rem' />
-              </a> 
-
-        </div>
+        <p className="autorais">@2023 Cristiane Umbelina todos direitos reservados.</p>
+        <p className='programador'>Desing and Development by <a href="https://www.instagram.com/charlesm3lo/" target="_blank">@Charles Melo</a></p>
+      
       </div>
     
 
