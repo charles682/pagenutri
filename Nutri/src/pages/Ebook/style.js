@@ -108,6 +108,37 @@ Button {
 
    } 
 
-   
+   @media(min-width: 721px) and ( max-width: 1112px){
+
+.container .book{
+width:100%;
+height: 100%;
+display: flex;
+
+
+}
+
+.book .imageBook{
+width: 80%;
+height: 70%;
+display: flex;
+align-items: center;
+justify-content: center;
+
+}
+
+
+.book .Links{
+width: 100%;  
+margin-left: 0;
+height: 70%;
+display: flex;
+justify-content: flex-start;
+flex-direction: column;
+text-align: justify;
+}
+
+
+   }
 
 `

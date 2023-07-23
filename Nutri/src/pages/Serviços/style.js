@@ -51,7 +51,7 @@ header h2{
 div.item {
   width: 100%;
 }
-@media(max-width:812px){
+@media(max-width:720px){
  .container{
  display: flex;
  align-items: center;
@@ -74,5 +74,32 @@ div.item {
 
    
    } 
+
+   @media(min-width: 721px) and ( max-width: 1112px){
+    .container{
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ flex-direction: column;
+ }
+ header h2{
+   display: flex;
+   justify-content: flex-start;
+}
+   .card{
+    width: 270px;
+     
+   }
+   
+    .cards{
+      display: grid;
+      grid-template-columns: 1fr 1fr ;
+    }
+   
+
+   
+   } 
+
+   
 
 `

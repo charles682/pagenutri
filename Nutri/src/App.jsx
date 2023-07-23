@@ -20,8 +20,6 @@ function App() {
    <Ebook/>
    <Contato/>
   </Container>
-
-
   )
 }
 

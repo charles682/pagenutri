@@ -114,7 +114,6 @@ div.swiper-button-next
 
 
 @media(max-width:720px){
-  
   .container{
     display: flex;
     flex-direction: column;
@@ -126,9 +125,7 @@ div.swiper-button-next
   display: flex;
   align-items: center;
   justify-content: flex-start;
-  
 
- 
 }
   .swiper-button-prev,
 div.swiper-button-next
@@ -136,4 +133,5 @@ div.swiper-button-next
   display: none;
 }
 }
+
 `

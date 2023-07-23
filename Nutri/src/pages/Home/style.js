@@ -3,27 +3,27 @@ export const Container = styled.div`
 
 
 /*====  HOME ============================ */
-#home{
+.section{
   display: flex;
   align-items: center;
   justify-content: center;
   margin-top: 5rem;
 }
 
-#home .container {
+.container {
   width: 83%;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-#home .image {
+ .image {
   width: 35%;
   margin: auto;
   position: relative;
 }
 
-#home .image::before {
+ .image::before {
   content: '';
   height: 100%;
   width: 100%;
@@ -34,30 +34,29 @@ export const Container = styled.div`
   z-index: 0;
 }
 
-#home .image img {
+ .image img {
   position: relative;
   right: 2.93rem;
 }
 
-#home .image img,
-#home .image::before {
+ .image img,
+ .image::before {
   border-radius: 0.25rem;
 }
 
-#home .text {
+ .text {
   width: 30%;
   margin-left: 1rem;
   margin-right: 1rem;
   
 }
 
-#home .text h1 {
+.text h1 {
   font-size: 2rem;
   margin-bottom: 1rem;
   color: black;
 }
-
-#home .text p {
+ .text p {
   margin-bottom: 2rem;
   text-align: justify;
 }
@@ -79,6 +78,35 @@ export const Container = styled.div`
     .text{
       min-width: 100%;
      
+    }
+
+   Button{
+    width: 19rem;
+   }
+   
+   } 
+  
+   
+}
+@media(min-width: 721px) and ( max-width: 1112px){
+  .container{
+    display: flex;
+    
+   
+ 
+    .image {
+      min-width: 48%;
+      margin: 0 42px;
+    
+    }
+
+    .text{
+      min-width: 40%;
+     
+    }
+
+    .text h1{
+      font-size: 1.5rem;
     }
 
    Button{
