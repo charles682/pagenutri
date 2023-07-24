@@ -27,7 +27,7 @@ export function Depoimentos(){
       function handleResize(){
         if(window.innerWidth < 720){
           setSlidePerView(1);
-        }if (window.innerWidth < 1112){
+        }else if (window.innerWidth < 1112){
           setSlidePerView(2);
         }
         else{
