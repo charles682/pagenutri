@@ -29,9 +29,9 @@ function App() {
   }, []);
   return (
   <Container >
-   <Header ref={revealRef}/>
-   <Home ref={revealRef}/>
-   <Sobre ref={revealRef}/> 
+   <Header/>
+   <Home />
+   <Sobre /> 
    <Servico/>
    <Depoimentos/>
    <Ebook/>
