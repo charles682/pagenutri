@@ -9,29 +9,29 @@ import {Ebook} from './pages/Ebook';
 import {Contato} from './pages/Contato';
 import React, { useEffect } from 'react';
 import ScrollReveal from 'scrollreveal';
+useEffect(() => {
+  const scrollReveal = ScrollReveal({
+    origin: 'top',
+    distance: '30px',
+    duration: 100,
+    reset: true
+  });
 
+  scrollReveal.reveal(".text, .card, p, a, .title", { interval: 50 });
+
+  // Limpar ScrollReveal ao desmontar o componente
+  return () => {
+    scrollReveal.destroy();
+  };
+}, []);
 
 function App() {
-    useEffect(() => {
-      const scrollReveal = ScrollReveal({
-        origin: 'top',
-        distance: '30px',
-        duration: 500,
-        reset: true
-      });
   
-      scrollReveal.reveal(".text, p, .title", { interval: 100 });
-  
-      // Limpar ScrollReveal ao desmontar o componente
-    return () => {
-        scrollReveal.destroy(0);
-      };
-    }, []);
   return (
-  <Container>
-   <Header  />
-   <Home/>
-   <Sobre/>
+  <Container >
+   <Header ref={revealRef}/>
+   <Home ref={revealRef}/>
+   <Sobre ref={revealRef}/> 
    <Servico/>
    <Depoimentos/>
    <Ebook/>
