@@ -12,9 +12,9 @@ import 'swiper/css/navigation';
 import { Keyboard, Pagination, Navigation} from 'swiper/modules';
 
 
-import img from'../../images/10.jpeg'
-import img1 from'../../images/26.jpeg'
-import img2 from'../../images/56.jpeg'
+import img from'../../images/photo_2023-08-02_15-48-01.jpg'
+import img1 from'../../images/photo_2023-08-02_15-48-01.jpg'
+import img2 from'../../images/photo_2023-08-02_16-05-23.jpg'
 import img3 from'../../images/56.jpeg'
 import img4 from'../../images/56.jpeg'
 
