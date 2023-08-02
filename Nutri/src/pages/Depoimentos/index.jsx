@@ -15,8 +15,9 @@ import { Keyboard, Pagination, Navigation} from 'swiper/modules';
 import img from'../../images/photo_2023-08-02_15-48-01.jpg'
 import img1 from'../../images/photo_2023-08-02_15-48-01.jpg'
 import img2 from'../../images/photo_2023-08-02_16-05-23.jpg'
-import img3 from'../../images/56.jpeg'
-import img4 from'../../images/56.jpeg'
+import img3 from'../../images/photo_2023-08-02_15-48-01.jpg'
+import img4 from'../../images/photo_2023-08-02_16-05-23.jpg'
+import img5 from'../../images/photo_2023-08-02_16-05-23.jpg'
 
 
 export function Depoimentos(){
@@ -142,6 +143,21 @@ export function Depoimentos(){
                                       <cite>
                                         <img
                                           src={img4}
+                                          alt="Fotos de Valeska Fabris"
+                                        />
+                                        Valeska Fabris
+                                      </cite>
+                                    </blockquote>
+                          </SwiperSlide>
+                          <SwiperSlide>
+                          <blockquote>
+                                      <p>
+                                        <span>&ldquo;</span>
+                                        Profissional atenciosa, simpática, esclarecedora, elaborou cardápio de acordo com minha rotina alimentar, estou satisfeita e me sentido muito bem
+                                      </p>
+                                      <cite>
+                                        <img
+                                          src={img5}
                                           alt="Fotos de Valeska Fabris"
                                         />
                                         Valeska Fabris
