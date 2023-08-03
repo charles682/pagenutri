@@ -9,8 +9,6 @@ import {Ebook} from './pages/Ebook';
 import {Contato} from './pages/Contato';
 import React from 'react';
 
-
-
 function App() {
  
   return (

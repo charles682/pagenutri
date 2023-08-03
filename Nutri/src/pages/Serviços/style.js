@@ -45,9 +45,11 @@ header h2{
   margin-bottom: 0.75rem;
  text-align: left;
 }
+
 .card p{
   text-align:left;
 }
+
 div.item {
   width: 100%;
 }

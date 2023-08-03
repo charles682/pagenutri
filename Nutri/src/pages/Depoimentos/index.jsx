@@ -12,12 +12,12 @@ import 'swiper/css/navigation';
 import { Keyboard, Pagination, Navigation} from 'swiper/modules';
 
 
-import img from'../../images/photo_2023-08-02_15-48-01.jpg'
-import img1 from'../../images/photo_2023-08-02_15-48-01.jpg'
+import img from'../../images/26.jpeg'
+import img1 from'../../images/photo_2023-08-02_15-48-51.jpg'
 import img2 from'../../images/photo_2023-08-02_16-05-23.jpg'
-import img3 from'../../images/photo_2023-08-02_15-48-01.jpg'
-import img4 from'../../images/photo_2023-08-02_16-05-23.jpg'
-import img5 from'../../images/photo_2023-08-02_16-05-23.jpg'
+import img3 from'../../images/10.jpeg'
+import img4 from'../../images/photo_2023-08-02_15-48-01.jpg'
+import img5 from'../../images/56.jpeg'
 
 
 export function Depoimentos(){
@@ -71,16 +71,15 @@ export function Depoimentos(){
                   <blockquote>
                                 <p>
                                 <span>&ldquo;</span>
-                                A Dra Cristiane é simplesmente muito fofa!!!
-                                Uma profissional que entende o paciente e faz o possível para ajustar a alimentação, orientação ao alcance! Com ela consegui chegar ao meu objetivo com sucesso! Só tenho que agradece-lá.
-                                Obrigada pelo carinho!!!
+                                Profissional atenciosa, simpática, esclarecedora, elaborou cardápio de acordo com minha rotina alimentar, estou satisfeita e me sentido muito bem
                                 </p>
                                 <cite>
                                 <img
                                     src={img}
                                     alt="Foto de Wanessa Souza"
                                 />
-                                Wanessa Souza
+                                  Valeska Fabris
+                           
                                 </cite>
                        </blockquote>
                       </SwiperSlide>
@@ -88,16 +87,14 @@ export function Depoimentos(){
                       <blockquote>
                                 <p>
                                 <span>&ldquo;</span>
-                                A Dra Cristiane é simplesmente muito fofa!!!
-                                Uma profissional que entende o paciente e faz o possível para ajustar a alimentação, orientação ao alcance! Com ela consegui chegar ao meu objetivo com sucesso! Só tenho que agradece-lá.
-                                Obrigada pelo carinho!!!
+                                Não posso deixar de elogiar a competência na capacidade de sintonizar com as necessidades individuais dos pacientes e ajustar as orientações alimentares. Agradeço sinceramente por essa ajuda vital no meu caminho rumo ao sucesso em minha jornada de saúde.
                                 </p>
                                 <cite>
                                 <img
                                     src={img1}
                                     alt="Foto de Wanessa Souza"
                                 />
-                                Wanessa Souza
+                            Amanda Dias
                                 </cite>
                        </blockquote>
 
@@ -106,16 +103,14 @@ export function Depoimentos(){
                       <blockquote>
                                 <p>
                                 <span>&ldquo;</span>
-                                A Dra Cristiane é simplesmente muito fofa!!!
-                                Uma profissional que entende o paciente e faz o possível para ajustar a alimentação, orientação ao alcance! Com ela consegui chegar ao meu objetivo com sucesso!que agradece-lá.
-                                Obrigada pelo carinho!!!
+                                Não poderia estar mais contente com a Dra. Cristiane! Sua doçura é contagiante, e sua habilidade em adaptar as orientações alimentares é impressionante. Com sua ajuda, atingi meus objetivos com sucesso e estou extremamente grata. Muito obrigada por tudo que fez por mim!
                                 </p>
                                 <cite>
                                 <img
                                     src={img2}
                                     alt="Foto de Wanessa Souza"
                                 />
-                                Wanessa Souza
+                              Samara
                                               </cite>
                         </blockquote>
                         </SwiperSlide>
@@ -123,7 +118,7 @@ export function Depoimentos(){
                         <blockquote>
                                   <p>
                                     <span>&ldquo;</span>
-                                Amei o atendimento. Crustiane é muito paciente e atenciosa. Tira todas suas dúvidas! É a profissional que entende a sua dor, e que realmente se coloca no nosso lugar. Não tive dificuldades para fazer o planejmaneto. Foi tudo feito dentro das minhas necessidades, sem precisar retirar nada do que gosto.
+                                Amei o atendimento. Cristiane é muito paciente e atenciosa. Tira todas suas dúvidas! É a profissional que entende a sua dor, e que realmente se coloca no nosso lugar. Não tive dificuldades para fazer o planejmaneto. Foi tudo feito dentro das minhas necessidades, sem precisar retirar nada do que gosto.
                               </p>
                               <cite>
                                 <img
@@ -138,14 +133,16 @@ export function Depoimentos(){
                           <blockquote>
                                       <p>
                                         <span>&ldquo;</span>
-                                        Profissional atenciosa, simpática, esclarecedora, elaborou cardápio de acordo com minha rotina alimentar, estou satisfeita e me sentido muito bem
+                                        A Dra Cristiane é simplesmente muito fofa!!!
+                                Uma profissional que entende o paciente e faz o possível para ajustar a alimentação, orientação ao alcance! Com ela consegui chegar ao meu objetivo com sucesso! Só tenho que agradece-lá.
+                                Obrigada pelo carinho!!!
                                       </p>
                                       <cite>
                                         <img
                                           src={img4}
                                           alt="Fotos de Valeska Fabris"
                                         />
-                                        Valeska Fabris
+                                           Renata Alves
                                       </cite>
                                     </blockquote>
                           </SwiperSlide>
@@ -153,14 +150,14 @@ export function Depoimentos(){
                           <blockquote>
                                       <p>
                                         <span>&ldquo;</span>
-                                        Profissional atenciosa, simpática, esclarecedora, elaborou cardápio de acordo com minha rotina alimentar, estou satisfeita e me sentido muito bem
+                                        A dedicação em compreender as particularidades de cada paciente e a habilidade em adaptar as orientações alimentares são admiráveis. Graças à orientação perspicaz, consegui alcançar meus objetivos de saúde de maneira brilhante.
                                       </p>
                                       <cite>
                                         <img
                                           src={img5}
                                           alt="Fotos de Valeska Fabris"
                                         />
-                                        Valeska Fabris
+                                        Natalia
                                       </cite>
                                     </blockquote>
                           </SwiperSlide>
