@@ -1,10 +1,21 @@
 import {Container} from './style'
 import img from "../../images/WhatsApp Image 2022-08-04 at 16.50.52.jpeg"
 import {Button} from "../../Componentes/Button/index"
+import { FloatingWhatsApp } from 'react-floating-whatsapp'
 
 export function Home(){
     return(
     <Container>
+          <FloatingWhatsApp   
+                phoneNumber="+5538998735130"
+                accountName="Cristiane"
+                avatar={img}
+                statusMessage="Online"
+                chatMessage="Olá! Como podemos ajudar?"     
+                 allowEsc
+                allowClickAway
+                notification
+                notificationSound />
             <section className="section" id="home">
                 <div className="container grid">
                 <div className="text">
