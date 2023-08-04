@@ -10,7 +10,7 @@ export function Home(){
                 <div className="text">
                     <h1 className="title">Não começe uma dieta que acabará um dia, começe um estilo de vida que durará pra sempre!</h1>
                     <p>
-                    Nutricionista, com especialização em Nutrição Clínica E Esportiva, com vários atendimentos realizados presencial e online,vários grupos online de emagrecimento, em vários estados do Brasil, e ótimos resultados alcançados. 
+                    Nutricionista, com especialização em Nutrição Clínica E Esportiva, com vários atendimentos realizados presencial e online,  vários grupos online de emagrecimento, em vários estados do Brasil, e ótimos resultados alcançados. 
                     </p>
                     <a href="https://api.whatsapp.com/send?phone=5538997415323&text=Ol%C3%A1%20Doutora%20Cristiane%2C%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20seus%20atendimentos!" target='_blank'>
                     <Button >
